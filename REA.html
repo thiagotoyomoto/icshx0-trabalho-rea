@@ -52,10 +52,26 @@
         .w-30 {
             width: 30%;
         }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #main-content {
+            max-width: 1200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        figure {
+            max-width: 100%;
+        }
     </style>
 </head>
 
 <body>
+<div id="main-content">
     <article>
         <h1 id="inicio">
             Letramento Digital
@@ -581,7 +597,7 @@
                 Para acessar o Google Drive existem muitas formas, desde utilizar uma URL na barra de navegação até clicar em botões que levam até o Google Drive. A forma que irei mostrar neste documento será a mais simples, onde serão pressionados botões na tela inicial do navegador Google Chrome que levarão até o Google Drive.
             </p>
             <figure>
-                <img src="img/google-drive/localizacao-google-drive.png" alt="Captura da tela inicial do Google Chrome com botão do Google Drive" style="width:80vw;">
+                <img src="img/google-drive/localizacao-google-drive.png" alt="Captura da tela inicial do Google Chrome com botão do Google Drive" class="w-80">
                 <figcaption>
                     Fig. 18 - Captura da tela inicial do Google Chrome com botão para o Google Drive. Fonte: Captura própria.
                 </figcaption>
@@ -597,7 +613,7 @@
                 Para acessar um arquivo específico no Google Drive, é possível buscá-lo pela barra de busca ou navegando pela árvore de arquivos, muito parecida com a descrita na seção do Explorador de Arquivos (<a href="#explorador-arquivos" target="_self">Link para seção do Explorador de Arquivos</a>).
             </p>
             <figure>
-                <img src="img/google-drive/inicio-google-drive.png" alt="Captura da tela inicial do Google Drive" style="width:80vw;">
+                <img src="img/google-drive/inicio-google-drive.png" alt="Captura da tela inicial do Google Drive" class="w-80">
                 <figcaption>
                     Fig. 19 - Captura da tela inicial do Google Drive. Fonte: Captura própria.
                 </figcaption>
@@ -671,6 +687,7 @@
     <div id="voltar-ao-inicio"><a id="botao-inicio" href="#inicio" title="Botão para voltar ao início"
             target="_top">Voltar ao início
             &#8593;</a></div>
+</div>
 </body>
 
 </html>
