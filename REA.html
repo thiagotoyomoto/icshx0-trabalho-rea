@@ -52,10 +52,26 @@
         .w-30 {
             width: 30%;
         }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #main-content {
+            max-width: 1200px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        figure {
+            max-width: 100%;
+        }
     </style>
 </head>
 
 <body>
+<div id="main-content">
     <article>
         <h1 id="inicio">
             Letramento Digital
@@ -477,13 +493,99 @@
                 Contudo, os passos para se colocar um documento
                 nas normas da ABNT são úteis para diversas formatações mais simples.</p>
         </section>
+        <section>
+            <h3>Como criar um Sumário automático no Google Docs</h3>
+
+            <figure>
+                <img src="img/google-docs/exemplo-sumario-automatico.png" alt="Captura de tela de sumário automático do Google Docs.">
+                <figcaption>
+                    Fig. 16 - Captura de tela de exemplo de sumário automático do Google Docs.
+                </figcaption>
+            </figure>
+
+            <h4>Passo 1: Estruturar seu texto com os estilos de título</h4>
+            <p>Antes de gerar o sumário, você precisa aplicar os <strong>estilos de títulos do Google Docs</strong> nas seções do seu trabalho:</p>
+            <ul>
+                <li>Selecione o título de cada seção ou capítulo.</li>
+                <li>No menu superior, vá em: <strong>Formatar → Estilos de parágrafo → Título 1 / Título 2 / Título 3...</strong></li>
+                <li>Exemplo de hierarquia:
+                <ul>
+                    <li><em>Capítulo principal</em> = Título 1</li>
+                    <li><em>Subseções</em> = Título 2</li>
+                    <li><em>Seções menores</em> = Título 3</li>
+                </ul>
+                </li>
+            </ul>
+
+            <h4>Passo 2: Inserir o Sumário automático</h4>
+            <p>Depois de estruturar o texto com os estilos de título:</p>
+            <ol>
+                <li>Vá até o local onde deseja inserir o Sumário (geralmente no início ou em uma nova página).</li>
+                <li>No menu, clique em: <strong>Inserir → Sumário</strong>.</li>
+                <li>Escolha o modelo de sumário:
+                <ul>
+                    <li>Com links clicáveis (navegável)</li>
+                    <li>Com numeração de página</li>
+                </ul>
+                </li>
+            </ol>
+
+            <h4>Passo 3: Atualizar o Sumário</h4>
+            <p>Se você fizer alterações nos títulos ou na estrutura do texto, basta clicar no sumário e depois em <strong>"Atualizar"</strong> para o Google Docs ajustar o índice automaticamente.</p>
+
+            <h4>Dicas importantes:</h4>
+            <ul>
+                <li>Use quebras de página para deixar o Sumário sozinho em uma página.</li>
+                <li>Se seu trabalho segue as normas ABNT, o sumário do Google Docs pode precisar de ajustes finais (como espaçamento ou fonte).</li>
+                <li>Se precisar de um sumário totalmente personalizado, pode exportar o documento para o Word e ajustar lá.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Como fazer numeração com romanos e arábicos no Google Docs</h3>
+
+            <h4>Objetivo:</h4>
+            <p>Ter as primeiras páginas com numeração em <strong>algarismos romanos (i, ii, iii...)</strong> e o restante do trabalho com <strong>números normais (1, 2, 3...)</strong>.</p>
+
+            <h4>Passo 1: Inserir quebras de seção</h4>
+            <ul>
+                <li>Posicione o cursor no final da página onde termina a parte preliminar (geralmente após o Sumário ou antes da Introdução).</li>
+                <li>No menu, clique em: <strong>Inserir → Quebra → Quebra de seção (próxima página)</strong>.</li>
+            </ul>
+
+            <h4>Passo 2: Adicionar a numeração nas páginas preliminares (romanos)</h4>
+            <ul>
+                <li>Vá até a primeira seção (páginas iniciais como Capa, Folha de Rosto, Sumário, etc.).</li>
+                <li>No menu, clique em: <strong>Inserir → Número de página → Mais opções</strong>.</li>
+                <li>Escolha o formato de número: <strong>Algarismos romanos (i, ii, iii...)</strong>.</li>
+                <li>Se quiser, marque a opção para <strong>não mostrar número na primeira página</strong> (ex: Capa sem número).</li>
+            </ul>
+
+            <h4>Passo 3: Configurar a segunda seção (corpo do trabalho com numeração arábica)</h4>
+            <ul>
+                <li>Clique no rodapé ou cabeçalho da nova seção (onde começa o corpo do texto, por exemplo, a Introdução).</li>
+                <li>Clique em: <strong>Opções → Formatar número de página</strong>.</li>
+                <li>Escolha o formato: <strong>1, 2, 3...</strong>.</li>
+                <li>Marque a opção: <strong>Iniciar em: 1</strong>.</li>
+                <li>Muito importante: <strong>Desative a opção "Vincular à seção anterior"</strong> para evitar que a numeração da primeira seção continue.</li>
+            </ul>
+
+            <h4>Resultado Final:</h4>
+            <p>Você terá:</p>
+            <ul>
+                <li><strong>Páginas preliminares:</strong> Numeração romana (i, ii, iii...)</li>
+                <li><strong>Corpo do trabalho:</strong> Numeração arábica começando do número 1</li>
+            </ul>
+
+            <h4>Observação:</h4>
+            <p>O Google Docs permite fazer essa configuração, mas ela não é tão automática quanto no Microsoft Word. Fique atento às quebras de seção e ao vínculo de cabeçalhos/rodapés entre as seções.</p>
+        </section>
     </article>
     <hr>
     <article>
         <h2 id="google-drive">Google Drive</h2>
         <figure>
             <img src="img/google-drive.png" alt="Logo do Google Drive" class="w-30">
-            <figcaption>Fig. 16 - Ícone do <a target="_blank" href="https://icons8.com/icon/ya4CrqO7PgnY/google-drive">Google Drive</a> icon por <a target="_blank" href="https://icons8.com">Icons8</a>.
+            <figcaption>Fig. 17 - Ícone do <a target="_blank" href="https://icons8.com/icon/ya4CrqO7PgnY/google-drive">Google Drive</a> icon por <a target="_blank" href="https://icons8.com">Icons8</a>.
             </figcaption>
         </figure>
         <p>
@@ -495,9 +597,9 @@
                 Para acessar o Google Drive existem muitas formas, desde utilizar uma URL na barra de navegação até clicar em botões que levam até o Google Drive. A forma que irei mostrar neste documento será a mais simples, onde serão pressionados botões na tela inicial do navegador Google Chrome que levarão até o Google Drive.
             </p>
             <figure>
-                <img src="img/google-drive/localizacao-google-drive.png" alt="Captura da tela inicial do Google Chrome com botão do Google Drive" style="width:80vw;">
+                <img src="img/google-drive/localizacao-google-drive.png" alt="Captura da tela inicial do Google Chrome com botão do Google Drive" class="w-80">
                 <figcaption>
-                    Fig. 17 - Captura da tela inicial do Google Chrome com botão para o Google Drive. Fonte: Captura própria.
+                    Fig. 18 - Captura da tela inicial do Google Chrome com botão para o Google Drive. Fonte: Captura própria.
                 </figcaption>
             </figure>
             <p>
@@ -511,9 +613,9 @@
                 Para acessar um arquivo específico no Google Drive, é possível buscá-lo pela barra de busca ou navegando pela árvore de arquivos, muito parecida com a descrita na seção do Explorador de Arquivos (<a href="#explorador-arquivos" target="_self">Link para seção do Explorador de Arquivos</a>).
             </p>
             <figure>
-                <img src="img/google-drive/inicio-google-drive.png" alt="Captura da tela inicial do Google Drive" style="width:80vw;">
+                <img src="img/google-drive/inicio-google-drive.png" alt="Captura da tela inicial do Google Drive" class="w-80">
                 <figcaption>
-                    Fig. 18 - Captura da tela inicial do Google Drive. Fonte: Captura própria.
+                    Fig. 19 - Captura da tela inicial do Google Drive. Fonte: Captura própria.
                 </figcaption>
             </figure>
             <p>
@@ -530,6 +632,7 @@
             </p>
         </section>
     </article>
+    <hr>
     <hr>
     <article>
         <h2 id="materiais-complementares">Materiais complementares</h2>
@@ -584,6 +687,7 @@
     <div id="voltar-ao-inicio"><a id="botao-inicio" href="#inicio" title="Botão para voltar ao início"
             target="_top">Voltar ao início
             &#8593;</a></div>
+</div>
 </body>
 
 </html>
